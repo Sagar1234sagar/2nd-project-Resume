@@ -1,0 +1,370 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  margin: 2%;
+}
+.left {
+  width: 35vw;
+  height: 1220px;
+  background-color: #013131;
+}
+.right {
+  width: 60%;
+  height: 50px;
+  background-color: white;
+}
+.bluebox {
+  width: 35vw;
+  height: 325px;
+  background-color: skyblue;
+  text-align: center;
+}
+.bluebox img {
+  width: 150px;
+  height: 150;
+  margin-top: 36px;
+  border-radius: 100px;
+}
+.bluebox p {
+  font-size: 38px;
+  margin-top: 7px;
+}
+.contact {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 137px;
+}
+.contact img {
+  width: 40px;
+  height: 40px;
+  margin: 14px 39px 10px 0px;
+}
+hr {
+  width: 60%;
+  margin-top: -34px;
+  margin-right: 124px;
+}
+.phone img {
+  width: 35px;
+  height: 35px;
+  margin: 14px 39px 10px 28px;
+}
+.phone {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 137px;
+}
+.phone .text {
+  margin-top: 10px;
+}
+.phone span {
+  margin-right: 15px;
+}
+.phone b {
+  margin-right: 83px;
+}
+.email img {
+  width: 35px;
+  height: 35px;
+  margin: 14px 39px 10px 65px;
+}
+.email {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 137px;
+}
+.email .text {
+  margin-top: 10px;
+}
+.email b {
+  margin-right: 125px;
+}
+.email span {
+  margin-right: -19px;
+  color: gray;
+}
+.address img {
+  width: 32px;
+  height: 32px;
+  margin: 16px 39px 10px 69px;
+  border-radius: 20px;
+}
+.address {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 117px;
+}
+
+.address .text {
+  margin-top: 10px;
+}
+.address b {
+  margin-right: 125px;
+}
+.address p {
+  margin-top: 1px;
+  margin-right: 66px;
+  color: gray;
+}
+.education {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 106px;
+}
+.education img {
+  width: 37px;
+  height: 37px;
+  margin: 14px 39px 10px 0px;
+  border-radius: 20px;
+}
+hr {
+  width: 60%;
+  margin-top: -30px;
+  margin-right: 124px;
+  height: 2px;
+  background-color: white;
+}
+.degree img {
+  width: 25px;
+  height: 25px;
+  margin: 14px 39px 10px 0px;
+  border-radius: 20px;
+}
+.degree {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 12px;
+
+}
+.degree .text {
+  margin-top: 10px;
+}
+.degree b {
+  margin-left: -129px;
+  font-size: 19px;
+}
+.degree span{
+  margin: 0px 101px 0px 0px;
+  color: grey;
+}
+.diploma img {
+  width: 25px;
+  height: 25px;
+  margin: 14px 39px 10px 0px;
+  border-radius: 20px;
+}
+.diploma {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 12px;
+
+}
+.diploma .text {
+  margin-top: 10px;
+}
+.diploma b {
+  margin-right: 28px;
+  margin-left: -129px;
+  font-size: 19px;
+}
+.diploma span{
+  margin: 0px 159px 0px 0px;
+  color: grey;
+}
+.language {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+  margin-right: 106px;
+}
+.language img {
+  width: 35px;
+  height: 35px;
+  margin: 14px 39px 10px 0px;
+  border-radius: 20px;
+}
+.language1{
+  margin: 34px 31px;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+.language1 img{
+  width: 25px;
+  height: 25px;
+  margin: 5px 39px 10px 0px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.language1 b{
+  color: white;
+  margin-left: 60px;
+}
+.language1 .text{
+  display: inline-block;
+  margin-top: -32px;
+  margin-bottom: -20px;
+}
+.language1{
+  display: grid;
+  margin-left: -140px; 
+}
+.profile {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+}
+.right hr {
+  width: 95%;
+  margin-top: 3px;
+  margin-left: 40px;
+  background: black;
+}
+.profile .text{
+  margin: -15px 40px
+}
+.myProfile p{
+  margin-left: 40px
+}
+.project {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+.project img {
+  width: 40px;
+  height: 40px;
+  margin-top: 26px;
+}
+.project .text{
+  margin-left: 40px;
+  margin-bottom: -11px;
+  margin-top: 10px;
+}
+.project1 p{
+  margin-left: 40px
+}
+.skills {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+.skills img {
+  width: 38px;
+  height: 38px;
+  margin-top: 26px;
+  border-radius: 20px;
+}
+.skills .text{
+  margin-left: 40px;
+  margin-bottom: -11px;
+  margin-top: 10px;
+}
+.tech{
+  margin-left: 40px;
+  display: inline-block;
+}
+.lang{
+  width: 200%;
+  height: 25px;
+  background: gray;
+  margin-left: 150px;
+  margin-top: -39px;
+ margin-bottom: 25px;
+}
+.skill{
+  display: inline-block;
+  height: 25px;
+}
+.html{
+  width: 90%;
+  background: skyblue;
+}
+.css{
+   width: 80%;
+  background: skyblue;
+}
+.javascript{
+   width: 70%;
+  background: skyblue;
+}
+.java{
+   width: 80%;
+  background: skyblue;
+}
+.sql{
+   width: 90%;
+  background: skyblue;
+}
+.j2ee{
+   width: 65%;
+  background: skyblue;
+}
+.details {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+.details img {
+  width: 40px;
+  height: 40px;
+  margin-top: 26px;
+}
+.details .text{
+  margin-left: 40px;
+  margin-bottom: -11px;
+  margin-top: 10px;
+}
+.personal{
+  margin-left: 40px;
+  margin-top: 30px;
+}
